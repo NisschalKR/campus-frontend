@@ -1,0 +1,51 @@
+name: elitecampus
+description: "A new Flutter project."
+
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.2 <4.0.0'  # Ensure compatibility with Flutter SDK
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_animate: ^4.5.0  # For animations
+  http: ^1.3.0  # Updated to be compatible with flutter_svg
+  provider: ^6.0.5  # State management
+  timeline_tile: ^2.0.0  # For roadmap timeline UI
+  flutter_svg: ^2.0.10  # Supports SVG images (company logos)
+  cached_network_image: ^3.3.1  # For optimized image loading
+  google_fonts: ^6.1.0  # For custom fonts
+  image_picker: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/google.png
+    - assets/amazon11.png
+    - assets/aws1.png
+    - assets/oracle_cloud.png
+    - assets/microsoft_cloud.png
+    - assets/google_cloud.png
+    - assets/microsoft.png
+    - assets/meta.png
+    - assets/netflix.png
+    - assets/ibm.png
+    - assets/oracle.png
+    - assets/cisco.png
+    - assets/tcs.png
+    - assets/accenture.png
+
+  fonts:
+    - family: Federo
+      fonts:
+        - asset: assets/fonts/Federo-Regular.ttf
